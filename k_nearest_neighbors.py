@@ -4,7 +4,7 @@ import numpy as np
 url="https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 
 names=['Sepal-length','Sepal-width','Petal-length','Petal-width','Class']
-data=pd.read_csv(url,names=names)
+data=pd.read_csv(url,names=names
 #print(data)
 x=data.iloc[:,:-1].values
 #print(x)
